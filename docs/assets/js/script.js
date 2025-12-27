@@ -564,10 +564,10 @@ function handleDownload(platform) {
             notification.style.transform = 'translateX(0)';
         }, 100);
 
-        // 直接跳转到GitHub Releases下载APK文件
+        // 直接跳转到Gitcode Releases下载APK文件
         setTimeout(() => {
-            // 跳转到GitHub Releases下载链接
-            window.location.href = 'https://github.com/NatureEase-lvyin/lvyin/releases/latest/download/lvyin.apk';
+            // 跳转到Gitcode Releases下载链接
+            window.location.href = 'https://gitcode.com/lvyin_NatureEase/lvyin/releases/latest/download/lvyin.apk';
 
             // 更新提示信息
             notification.textContent = '绿荫APK下载已开始！';
